@@ -29,10 +29,6 @@ for more info check https://www.sitepoint.com/architecture-sass-project/
 // Vendors import
 */
 @import "vendors/bootstrap";
-@import "vendors/fontawesome";
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-@import "~@fancyapps/fancybox/dist/jquery.fancybox.min";
 
 /*
 // Helpers import
@@ -58,10 +54,12 @@ for more info check https://www.sitepoint.com/architecture-sass-project/
 /*
 // UI import
 */
-@import "ui/buttons";
-@import "ui/inputs";
-
+@import "ui/button";
+@import "ui/input";
+@import "ui/textarea";
+@import "ui/checkbox";
+@import "ui/radio";
 /*
 // Pages import
 */
-@import "pages/home";
+@import "pages/index";
